@@ -1,0 +1,13 @@
+spring:
+  activiti:
+  
+    jpa-enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/activiti?verifyServerCertificate=false&useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update

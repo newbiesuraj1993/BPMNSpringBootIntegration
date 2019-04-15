@@ -1,0 +1,25 @@
+package com.infy.camunda.logic;
+
+import org.camunda.bpm.engine.delegate.DelegateExecution;
+import org.camunda.bpm.engine.delegate.JavaDelegate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class CustomLogic implements JavaDelegate {
+
+	private String value;
+	
+	public void setValuefromAPI(String value) {
+		this.value=value;
+	}
+	
+	
+
+	@Override
+	public void execute(DelegateExecution execution) throws Exception {
+		execution.setVariable("approval", value);
+		
+	}
+	
+	
+}

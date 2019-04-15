@@ -1,0 +1,5 @@
+package com.infy.activitinew.configuration;
+
+public class Security {
+
+}

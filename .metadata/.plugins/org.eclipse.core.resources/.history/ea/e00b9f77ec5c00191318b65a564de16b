@@ -1,0 +1,5 @@
+package com.infy.camunda.controller;
+
+public class CustomRestController {
+
+}

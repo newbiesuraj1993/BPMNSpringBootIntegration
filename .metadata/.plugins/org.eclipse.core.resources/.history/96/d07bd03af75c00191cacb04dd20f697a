@@ -1,0 +1,13 @@
+camunda.bpm:
+    admin-user:
+      firstName: suraj
+      id: suraj
+      password: suraj
+    filter:
+      create: All tasks
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *

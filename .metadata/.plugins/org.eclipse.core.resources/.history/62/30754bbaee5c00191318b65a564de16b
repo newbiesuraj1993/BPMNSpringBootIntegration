@@ -1,0 +1,24 @@
+package com.infy.camunda.services;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ServiceTaskBoolean {
+
+	private boolean approval;
+
+	public ServiceTaskBoolean(boolean approval) {
+		super();
+		this.approval = approval;
+	}
+
+	public boolean isApproval() {
+		return approval;
+	}
+
+	public void setApproval(boolean approval) {
+		this.approval = approval;
+	}
+	
+	
+}

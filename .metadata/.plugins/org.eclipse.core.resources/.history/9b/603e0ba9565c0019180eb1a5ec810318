@@ -1,0 +1,5 @@
+package com.infy.activitinew.connector;
+
+public class CustomServiceTaskConnector {
+
+}

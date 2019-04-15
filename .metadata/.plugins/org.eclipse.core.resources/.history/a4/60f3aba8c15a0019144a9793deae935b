@@ -1,0 +1,4 @@
+camunda.bpm.admin-user.id=suraj
+camunda.bpm.admin-user.password=suraj
+camunda.bpm.admin-user.firstName:suraj
+camunda.bom.filter.create=All tasks

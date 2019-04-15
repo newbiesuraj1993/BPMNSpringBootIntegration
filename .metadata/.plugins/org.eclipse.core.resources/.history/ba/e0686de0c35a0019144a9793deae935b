@@ -1,0 +1,15 @@
+package com.infy.camunda.logic;
+
+import org.camunda.bpm.engine.delegate.DelegateExecution;
+import org.camunda.bpm.engine.delegate.JavaDelegate;
+
+public class CheckWeather implements JavaDelegate {
+
+	@Override
+	public void execute(DelegateExecution execution) throws Exception {
+		execution.setVariable("name", "suraj");
+		execution.setVariable("weather", false);
+
+	}
+
+}

@@ -1,0 +1,9 @@
+camunda:
+  bom:
+    filter:
+      create: All tasks
+  bpm:
+    admin-user:
+      firstName: suraj
+      id: suraj
+      password: suraj

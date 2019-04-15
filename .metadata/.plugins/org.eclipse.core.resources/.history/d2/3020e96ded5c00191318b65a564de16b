@@ -1,0 +1,20 @@
+package com.infy.camunda.approvallogic;
+
+import org.camunda.bpm.engine.delegate.DelegateExecution;
+import org.camunda.bpm.engine.delegate.JavaDelegate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ApproverLogic implements JavaDelegate {
+	
+	public boolean getValue(boolean value) {
+		return value;
+	}
+	
+	@Override
+	public void execute(DelegateExecution execution) throws Exception {
+		boolean value=get
+		
+	}
+
+}

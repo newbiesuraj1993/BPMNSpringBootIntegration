@@ -1,0 +1,13 @@
+package com.infy.camunda.logic;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class CustomLogic {
+
+	private String value;
+	
+	public void setValuefromAPI(String value) {
+		this.value=value;
+	}
+}

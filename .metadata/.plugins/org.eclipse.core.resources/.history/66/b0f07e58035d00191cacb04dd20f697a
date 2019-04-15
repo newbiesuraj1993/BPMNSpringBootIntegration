@@ -1,0 +1,14 @@
+package com.infy.camunda.logic;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CustomController {
+
+	@GetMapping("/getapproval/{value}")
+	public void getApprovalValue(@PathVariable String value) {
+		
+	}
+}

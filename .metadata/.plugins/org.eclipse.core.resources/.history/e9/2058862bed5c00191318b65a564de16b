@@ -1,0 +1,16 @@
+package com.infy.camunda.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.infy.camunda.services.ServiceTaskBoolean;
+
+@RestController
+public class CustomRestController {
+	
+	@PostMapping("/approval")
+	public boolean approvalService(@RequestBody ServiceTaskBoolean taskValue) {
+		return taskValue.isApproval();
+	}
+}
